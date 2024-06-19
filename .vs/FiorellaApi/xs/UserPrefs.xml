@@ -1,8 +1,6 @@
 ﻿<Properties StartupConfiguration="{BBFB5ED4-99A8-4800-861C-47A9D74233C1}|Default">
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/Controllers/Admin/ProductController.cs" relfile="FiorellaApi/Controllers/Admin/ProductController.cs" line="119" column="1" />
-    </BreakpointStore>
+    <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
@@ -10,20 +8,20 @@
     <Files>
       <File FileName="FiorellaApi/Controllers/Admin/SliderInfoController.cs" />
       <File FileName="FiorellaApi/Services/Interfaces/ISliderInfoService.cs" />
-      <File FileName="FiorellaApi/Services/Interfaces/IBlogService.cs" />
+      <File FileName="FiorellaApi/Services/Interfaces/IBlogService.cs" Line="13" Column="1" />
       <File FileName="FiorellaApi/Services/SliderInfoService.cs" />
-      <File FileName="FiorellaApi/Services/BlogService.cs" />
-      <File FileName="FiorellaApi/Controllers/Admin/BlogController.cs" Line="111" Column="7" />
+      <File FileName="FiorellaApi/Services/BlogService.cs" Line="51" Column="1" />
+      <File FileName="FiorellaApi/Controllers/Admin/BlogController.cs" Line="79" Column="9" />
       <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoCreateDto.cs" />
       <File FileName="FiorellaApi/DTOs/Blogs/BlogCreateDto.cs" />
-      <File FileName="FiorellaApi/Helpers/MappingProfile.cs" Line="37" Column="46" />
+      <File FileName="FiorellaApi/Helpers/MappingProfile.cs" Line="39" Column="87" />
       <File FileName="FiorellaApi/Program.cs" />
       <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoDto.cs" />
       <File FileName="FiorellaApi/DTOs/Blogs/BlogDto.cs" />
       <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoDetailDto.cs" />
       <File FileName="FiorellaApi/DTOs/Blogs/BlogDetailDto.cs" />
       <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoEditDto.cs" />
-      <File FileName="FiorellaApi/DTOs/Blogs/BlogEditDto.cs" Line="16" Column="1" />
+      <File FileName="FiorellaApi/DTOs/Blogs/BlogEditDto.cs" />
       <File FileName="FiorellaApi/Models/Slider.cs" />
       <File FileName="FiorellaApi/Helpers/EntityConfigurations/SliderConfigurations.cs" />
       <File FileName="FiorellaApi/Helpers/EntityConfigurations/SliderInfoConfigurations.cs" />
@@ -35,7 +33,7 @@
       <File FileName="FiorellaApi/DTOs/Sliders/SliderCreateDto.cs" />
       <File FileName="FiorellaApi/DTOs/Sliders/SliderEditDto.cs" />
       <File FileName="FiorellaApi/Models/Social.cs" />
-      <File FileName="FiorellaApi/Models/Category.cs" />
+      <File FileName="FiorellaApi/Models/Category.cs" Line="1" Column="1" />
       <File FileName="FiorellaApi/Helpers/EntityConfigurations/CategoryConfigurations.cs" />
       <File FileName="FiorellaApi/Helpers/EntityConfigurations/ExpertConfigurations.cs" />
       <File FileName="FiorellaApi/Migrations/20240618200950_CreateCategoryTable.cs" />
@@ -46,17 +44,18 @@
       <File FileName="FiorellaApi/DTOs/Categories/CategoryDto.cs" />
       <File FileName="FiorellaApi/DTOs/Categories/CategoryEditDto.cs" />
       <File FileName="FiorellaApi/Models/Product.cs" />
-      <File FileName="FiorellaApi/Models/ProductImage.cs" Line="6" Column="8" />
+      <File FileName="FiorellaApi/Models/ProductImage.cs" />
       <File FileName="FiorellaApi/Helpers/EntityConfigurations/ProductConfigurations.cs" />
       <File FileName="FiorellaApi/Helpers/EntityConfigurations/BlogConfigurations.cs" />
       <File FileName="FiorellaApi/Migrations/20240619122858_CreateProductsTable.cs" />
-      <File FileName="FiorellaApi/Controllers/Admin/ProductController.cs" Line="75" Column="44" />
-      <File FileName="FiorellaApi/Services/Interfaces/IProductService.cs" />
-      <File FileName="FiorellaApi/Services/ProductService.cs" Line="56" Column="70" />
-      <File FileName="FiorellaApi/DTOs/Products/ProductDto.cs" Line="14" Column="72" />
-      <File FileName="FiorellaApi/DTOs/Products/ProductCreateDto.cs" Line="12" Column="23" />
-      <File FileName="FiorellaApi/DTOs/Products/ProductImageDto.cs" Line="10" Column="41" />
+      <File FileName="FiorellaApi/Controllers/Admin/ProductController.cs" Line="274" Column="12" />
+      <File FileName="FiorellaApi/Services/Interfaces/IProductService.cs" Line="23" Column="1" />
+      <File FileName="FiorellaApi/Services/ProductService.cs" Line="93" Column="12" />
+      <File FileName="FiorellaApi/DTOs/Products/ProductDto.cs" Line="14" Column="9" />
+      <File FileName="FiorellaApi/DTOs/Products/ProductCreateDto.cs" />
+      <File FileName="FiorellaApi/DTOs/Products/ProductImageDto.cs" />
       <File FileName="FiorellaApi/DTOs/Products/ProductEditDto.cs" Line="7" Column="3" />
+      <File FileName="FiorellaApi/DTOs/Products/ProductDetailDto.cs" Line="17" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">

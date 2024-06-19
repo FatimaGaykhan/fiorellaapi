@@ -18,6 +18,10 @@ namespace FiorellaApi.Services.Interfaces
         Task EditAsync(Product product);
         Task<ProductImage> GetProductImageByIdAsync(int? id);
         Task ImageDeleteAsync(ProductImage image);
+        Task<Product> DetailAsync(int id);
+        //Task IsMainAsync();
+
+
     }
 }
 

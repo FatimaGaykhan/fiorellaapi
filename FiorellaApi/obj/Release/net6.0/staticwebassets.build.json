@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BRpkxds2Qeh1+Ee7lf04rzeTFGx0m0wFgGPu5yPOpfM=",
+  "Hash": "LFTtSozlmty/D0iDbJLfqZD2cCzOvrQq+kNDzihymJU=",
   "Source": "FiorellaApi",
   "BasePath": "_content/FiorellaApi",
   "Mode": "Default",
@@ -389,6 +389,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/bf1bca35-785f-4227-b6bf-968deca7a73b-course-1.jpg"
+    },
+    {
+      "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/cff2f938-5d4c-4fc9-b220-cb1510c72a27-team-1.jpg",
+      "SourceId": "FiorellaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/",
+      "BasePath": "_content/FiorellaApi",
+      "RelativePath": "img/cff2f938-5d4c-4fc9-b220-cb1510c72a27-team-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/cff2f938-5d4c-4fc9-b220-cb1510c72a27-team-1.jpg"
     },
     {
       "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/fd380848-83ec-4278-9e15-2c745d70d2a4-course-1.jpg",

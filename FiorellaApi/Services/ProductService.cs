@@ -29,6 +29,12 @@ namespace FiorellaApi.Services
             await _context.SaveChangesAsync();
         }
 
+        public async Task<Product> DetailAsync(int id)
+        {
+            return await _context.Products.Include(m => m.ProductImages).Include(m=>m.Category).AsNoTracking().Where(m => m.Id == id).FirstOrDefaultAsync();
+
+        }
+
         public async Task EditAsync(Product product)
         {
             _context.Products.Update(product);
@@ -79,6 +85,12 @@ namespace FiorellaApi.Services
             _context.ProductImages.Remove(image);
             await _context.SaveChangesAsync();
         }
+
+        //public async Task IsMainAsync()
+        //{
+        //    _context.Products.Update();
+        //    await _context.SaveChangesAsync();
+        //}
     }
 }
 
