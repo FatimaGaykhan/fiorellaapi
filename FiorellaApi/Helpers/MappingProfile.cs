@@ -34,6 +34,7 @@ namespace FiorellaApi.Helpers
             CreateMap<ProductCreateDto, Product>();
             CreateMap<Product, ProductDto>();
             CreateMap<ProductImage, ProductImageDto>();
+            CreateMap<ProductEditDto, Product>();
 
 
 

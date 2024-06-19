@@ -114,6 +114,148 @@ namespace FiorellaApi.Controllers.Admin
 
         }
 
+        [HttpPut]
+        public async Task<IActionResult> Edit(int? id , [FromForm] ProductEditDto request)
+        {
+            if (!ModelState.IsValid) return BadRequest(ModelState);
+
+            if (id is null) return BadRequest();
+
+            var entity = await _productService.GetByIdAsync((int)id);
+
+            if (entity is null) return NotFound();
+
+            List<ProductImageDto> images = new();
+
+            
+
+            if (!ModelState.IsValid)
+            {
+
+                return Ok(new ProductEditDto { Images = images });
+
+            }
+
+            List<ProductImage> newImages = new();
+
+            if (request.NewImages is not null)
+            {
+                foreach (var item in request.NewImages)
+                {
+
+
+                    if (!item.CheckFileType("image/"))
+                    {
+                        return BadRequest();
+
+                    }
+                    if (!item.CheckFileSize(500))
+                    {
+                        return BadRequest();
+                    }
+
+
+                }
+
+                if (request.NewImages is not null)
+                {
+
+                    foreach (var item in request.NewImages)
+                    {
+                        string oldPath = _env.GenerateFilePath("img", item.Name);
+                        oldPath.DeleteFileFromLocal();
+                        string fileName = Guid.NewGuid().ToString() + "-" + item.FileName;
+                        string newPath = _env.GenerateFilePath("img", fileName);
+
+                        await item.SaveFileToLocalAsync(newPath);
+
+
+                        entity.ProductImages.Add(new ProductImage { Name = fileName });
+
+                    }
+                }
+            }
+
+            if (request.Name is not null)
+            {
+                entity.Name = request.Name;
+            }
+            if (request.Description is not null)
+            {
+                entity.Description = request.Description;
+            }
+
+            if (request.CategoryId != entity.CategoryId)
+            {
+                entity.CategoryId = request.CategoryId;
+            }
+
+
+            if (decimal.Parse(request.Price.Replace(".", ",")) != entity.Price)
+            {
+                entity.Price = decimal.Parse(request.Price.Replace(".", ","));
+            }
+
+
+
+
+            _mapper.Map(request, entity);
+
+            await _productService.EditAsync(entity);
+
+            return Ok();
+
+        }
+
+        //[HttpPut]
+        //public async Task<IActionResult> Update(int? id, [FromForm] BlogEditDto request)
+        //{
+        //    if (!ModelState.IsValid) return BadRequest(ModelState);
+
+        //    if (id is null) return BadRequest();
+
+        //    var entity = await _blogService.GetByIdAsync((int)id);
+
+        //    if (entity is null) return NotFound();
+
+        //    if (request.NewImage != null)
+        //    {
+        //        if (!request.NewImage.CheckFileType("image/"))
+        //        {
+
+        //            return BadRequest();
+        //        }
+
+        //        if (!request.NewImage.CheckFileSize(200))
+        //        {
+
+        //            return BadRequest();
+        //        }
+
+        //        string oldPath = _env.GenerateFilePath("img", entity.Image);
+
+        //        oldPath.DeleteFileFromLocal();
+
+        //        string fileName = Guid.NewGuid().ToString() + "-" + request.NewImage.FileName;
+
+
+        //        string newPath = _env.GenerateFilePath("img", fileName);
+
+        //        await request.NewImage.SaveFileToLocalAsync(newPath);
+
+        //        entity.Image = fileName;
+        //    }
+
+
+
+        //    _mapper.Map(request, entity);
+
+        //    await _blogService.EditAsync(entity);
+
+        //    return Ok();
+
+        //}
+
 
 
 

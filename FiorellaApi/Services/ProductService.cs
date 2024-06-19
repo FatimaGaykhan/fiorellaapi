@@ -53,7 +53,7 @@ namespace FiorellaApi.Services
 
         public async Task<Product> GetByIdAsync(int id)
         {
-            return await _context.Products.AsNoTracking().Where(m => m.Id == id).FirstOrDefaultAsync();
+            return await _context.Products.Include(m=>m.ProductImages).AsNoTracking().Where(m => m.Id == id).FirstOrDefaultAsync();
         }
 
         public async Task<Product> GetByIdWithAllDatas(int id)

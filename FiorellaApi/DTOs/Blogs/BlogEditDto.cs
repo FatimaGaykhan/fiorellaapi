@@ -7,7 +7,6 @@ namespace FiorellaApi.DTOs.Blogs
 
 		public string Description { get; set; }
 
-
 		public IFormFile NewImage { get; set; }
 
 

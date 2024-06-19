@@ -5,7 +5,9 @@ namespace FiorellaApi.DTOs.Products
 {
 	public class ProductImageDto
 	{
-        public ICollection<ProductImage> ProductImages { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public bool IsMain { get; set; }
 
     }
 }

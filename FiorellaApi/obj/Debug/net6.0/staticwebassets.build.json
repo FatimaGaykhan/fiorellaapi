@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "4jBKZwKJO/9sA/n9yNYZy93s4+2wnTo9UPtBKP27L3E=",
+  "Hash": "R23Uc8UV7rSooZQb6ATfWfR9Uthb13k5S6iPRRE4SYk=",
   "Source": "FiorellaApi",
   "BasePath": "_content/FiorellaApi",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/26170458-f061-4256-81c2-2c0edc7c471b-carousel-1.jpg"
+    },
+    {
+      "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/2f3fd3a0-1d31-4547-9f75-0e9c05e06c9b-course-3.jpg",
+      "SourceId": "FiorellaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/",
+      "BasePath": "_content/FiorellaApi",
+      "RelativePath": "img/2f3fd3a0-1d31-4547-9f75-0e9c05e06c9b-course-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/2f3fd3a0-1d31-4547-9f75-0e9c05e06c9b-course-3.jpg"
     },
     {
       "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/4a848bca-856b-417b-b01f-2ac1ecefe082-carousel-2.jpg",
@@ -102,6 +119,23 @@
       "OriginalItemSpec": "wwwroot/img/6197b94e-2a79-479b-97d4-be273984f7ca-course-2.jpg"
     },
     {
+      "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/64de4f6b-8228-47c7-bd85-a13b88c3b2eb-course-2.jpg",
+      "SourceId": "FiorellaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/",
+      "BasePath": "_content/FiorellaApi",
+      "RelativePath": "img/64de4f6b-8228-47c7-bd85-a13b88c3b2eb-course-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/64de4f6b-8228-47c7-bd85-a13b88c3b2eb-course-2.jpg"
+    },
+    {
       "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/67b7a30a-fdda-4c44-81d7-2ee1cfe3d748-cat-2.jpg",
       "SourceId": "FiorellaApi",
       "SourceType": "Discovered",
@@ -134,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/68cc766d-4641-4218-8f86-17083fe61d8f-team-1.jpg"
+    },
+    {
+      "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/77bfeb8d-35ec-4f6a-80aa-ba9ef7bd1157-course-1.jpg",
+      "SourceId": "FiorellaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/",
+      "BasePath": "_content/FiorellaApi",
+      "RelativePath": "img/77bfeb8d-35ec-4f6a-80aa-ba9ef7bd1157-course-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/77bfeb8d-35ec-4f6a-80aa-ba9ef7bd1157-course-1.jpg"
     },
     {
       "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/79677c9d-ce69-469f-ad8f-03ff3cb4745d-team-2.jpg",
@@ -187,6 +238,23 @@
       "OriginalItemSpec": "wwwroot/img/875cee1c-012a-47e2-a9a2-202daf4e48f0-testimonial-1.jpg"
     },
     {
+      "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/9a5e4856-9fa2-418a-8da6-b4948bf1f071-course-2.jpg",
+      "SourceId": "FiorellaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/",
+      "BasePath": "_content/FiorellaApi",
+      "RelativePath": "img/9a5e4856-9fa2-418a-8da6-b4948bf1f071-course-2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/9a5e4856-9fa2-418a-8da6-b4948bf1f071-course-2.jpg"
+    },
+    {
       "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/9b57b4d7-bd4a-4c90-b3e6-7829b7c0f8a7-cat-4.jpg",
       "SourceId": "FiorellaApi",
       "SourceType": "Discovered",
@@ -202,6 +270,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/9b57b4d7-bd4a-4c90-b3e6-7829b7c0f8a7-cat-4.jpg"
+    },
+    {
+      "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/9fb78efc-c9a3-44ee-80c1-e0421fc08bb5-cat-3.jpg",
+      "SourceId": "FiorellaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/",
+      "BasePath": "_content/FiorellaApi",
+      "RelativePath": "img/9fb78efc-c9a3-44ee-80c1-e0421fc08bb5-cat-3.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/9fb78efc-c9a3-44ee-80c1-e0421fc08bb5-cat-3.jpg"
     },
     {
       "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/a102b86b-f924-4408-aa00-007cdfa2070b-team-3.jpg",
@@ -287,6 +372,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/bf1bca35-785f-4227-b6bf-968deca7a73b-course-1.jpg"
+    },
+    {
+      "Identity": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/img/fd380848-83ec-4278-9e15-2c745d70d2a4-course-1.jpg",
+      "SourceId": "FiorellaApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/fatimagaykhanova/Desktop/FiorellaApi/FiorellaApi/wwwroot/",
+      "BasePath": "_content/FiorellaApi",
+      "RelativePath": "img/fd380848-83ec-4278-9e15-2c745d70d2a4-course-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/fd380848-83ec-4278-9e15-2c745d70d2a4-course-1.jpg"
     }
   ]
 }
