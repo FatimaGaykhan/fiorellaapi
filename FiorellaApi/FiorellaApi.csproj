@@ -1,0 +1,64 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.31" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.31">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.31">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.31" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Controllers\" />
+    <None Remove="Data\" />
+    <None Remove="Models\" />
+    <None Remove="Helpers\" />
+    <None Remove="Helpers\EntityConfigurations\" />
+    <None Remove="DTOs\" />
+    <None Remove="DTOs\Blogs\" />
+    <None Remove="Controllers\Admin\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Helpers\Extensions\" />
+    <None Remove="DTOs\SliderInfos\" />
+    <None Remove="DTOs\Sliders\" />
+    <None Remove="DTOs\Categories\" />
+    <None Remove="DTOs\Products\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+    <Folder Include="Data\" />
+    <Folder Include="Models\" />
+    <Folder Include="Helpers\" />
+    <Folder Include="Helpers\EntityConfigurations\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="DTOs\Blogs\" />
+    <Folder Include="Controllers\Admin\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Helpers\Extensions\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\img\" />
+    <Folder Include="DTOs\SliderInfos\" />
+    <Folder Include="DTOs\Sliders\" />
+    <Folder Include="DTOs\Categories\" />
+    <Folder Include="DTOs\Products\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\" />
+    <Content Remove="wwwroot\img\" />
+  </ItemGroup>
+</Project>

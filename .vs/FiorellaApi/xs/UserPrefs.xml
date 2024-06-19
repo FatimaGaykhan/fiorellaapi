@@ -1,0 +1,98 @@
+﻿<Properties StartupConfiguration="{BBFB5ED4-99A8-4800-861C-47A9D74233C1}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FiorellaApi/Controllers/Admin/ProductController.cs">
+    <Files>
+      <File FileName="FiorellaApi/Controllers/Admin/SliderInfoController.cs" Line="161" Column="6" />
+      <File FileName="FiorellaApi/Services/Interfaces/ISliderInfoService.cs" Line="14" Column="1" />
+      <File FileName="FiorellaApi/Services/Interfaces/IBlogService.cs" Line="9" Column="9" />
+      <File FileName="FiorellaApi/Services/SliderInfoService.cs" Line="39" Column="13" />
+      <File FileName="FiorellaApi/Services/BlogService.cs" Line="39" Column="13" />
+      <File FileName="FiorellaApi/Controllers/Admin/BlogController.cs" Line="108" Column="1" />
+      <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoCreateDto.cs" Line="10" Column="9" />
+      <File FileName="FiorellaApi/DTOs/Blogs/BlogCreateDto.cs" Line="6" Column="3" />
+      <File FileName="FiorellaApi/Helpers/MappingProfile.cs" Line="36" Column="52" />
+      <File FileName="FiorellaApi/Program.cs" Line="28" Column="52" />
+      <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoDto.cs" />
+      <File FileName="FiorellaApi/DTOs/Blogs/BlogDto.cs" Line="6" Column="3" />
+      <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoDetailDto.cs" />
+      <File FileName="FiorellaApi/DTOs/Blogs/BlogDetailDto.cs" />
+      <File FileName="FiorellaApi/DTOs/SliderInfos/SliderInfoEditDto.cs" Line="12" Column="1" />
+      <File FileName="FiorellaApi/DTOs/Blogs/BlogEditDto.cs" />
+      <File FileName="FiorellaApi/Models/Slider.cs" Line="7" Column="1" />
+      <File FileName="FiorellaApi/Helpers/EntityConfigurations/SliderConfigurations.cs" Line="9" Column="55" />
+      <File FileName="FiorellaApi/Helpers/EntityConfigurations/SliderInfoConfigurations.cs" Line="10" Column="9" />
+      <File FileName="FiorellaApi/Data/AppDbContext.cs" Line="17" Column="63" />
+      <File FileName="FiorellaApi/Migrations/20240618180418_CreateSliderTable.cs" Line="1" Column="1" />
+      <File FileName="FiorellaApi/Services/Interfaces/ISliderInterface.cs" Line="13" Column="39" />
+      <File FileName="FiorellaApi/Services/SliderService.cs" Line="33" Column="45" />
+      <File FileName="FiorellaApi/Controllers/Admin/SliderController.cs" Line="130" Column="26" />
+      <File FileName="FiorellaApi/DTOs/Sliders/SliderDto.cs" Line="7" Column="1" />
+      <File FileName="FiorellaApi/DTOs/Sliders/SliderCreateDto.cs" Line="8" Column="42" />
+      <File FileName="FiorellaApi/DTOs/Sliders/SliderEditDto.cs" Line="7" Column="1" />
+      <File FileName="FiorellaApi/Models/Social.cs" Line="8" Column="40" />
+      <File FileName="FiorellaApi/Models/Category.cs" Line="8" Column="1" />
+      <File FileName="FiorellaApi/Helpers/EntityConfigurations/CategoryConfigurations.cs" Line="11" Column="74" />
+      <File FileName="FiorellaApi/Helpers/EntityConfigurations/ExpertConfigurations.cs" Line="9" Column="13" />
+      <File FileName="FiorellaApi/Migrations/20240618200950_CreateCategoryTable.cs" Line="1" Column="1" />
+      <File FileName="FiorellaApi/Services/Interfaces/ICategoryService.cs" Line="11" Column="1" />
+      <File FileName="FiorellaApi/Services/CategoryService.cs" Line="50" Column="1" />
+      <File FileName="FiorellaApi/Controllers/Admin/CategoryController.cs" Line="66" Column="65" />
+      <File FileName="FiorellaApi/DTOs/Categories/CategoryCreateDto.cs" Line="7" Column="1" />
+      <File FileName="FiorellaApi/DTOs/Categories/CategoryDto.cs" Line="7" Column="1" />
+      <File FileName="FiorellaApi/DTOs/Categories/CategoryEditDto.cs" Line="7" Column="1" />
+      <File FileName="FiorellaApi/Models/Product.cs" Line="11" Column="69" />
+      <File FileName="FiorellaApi/Models/ProductImage.cs" Line="10" Column="45" />
+      <File FileName="FiorellaApi/Helpers/EntityConfigurations/ProductConfigurations.cs" Line="23" Column="10" />
+      <File FileName="FiorellaApi/Helpers/EntityConfigurations/BlogConfigurations.cs" Line="23" Column="1" />
+      <File FileName="FiorellaApi/Migrations/20240619122858_CreateProductsTable.cs" Line="1" Column="1" />
+      <File FileName="FiorellaApi/Controllers/Admin/ProductController.cs" Line="117" Column="1" />
+      <File FileName="FiorellaApi/Services/Interfaces/IProductService.cs" Line="18" Column="39" />
+      <File FileName="FiorellaApi/Services/ProductService.cs" Line="46" Column="89" />
+      <File FileName="FiorellaApi/DTOs/Products/ProductDto.cs" Line="14" Column="72" />
+      <File FileName="FiorellaApi/DTOs/Products/ProductCreateDto.cs" Line="8" Column="9" />
+      <File FileName="FiorellaApi/DTOs/Products/ProductImageDto.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FiorellaApi" expanded="True">
+            <Node name="FiorellaApi" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="ProductController.cs" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="DTOs" expanded="True">
+                <Node name="Blogs" expanded="True" />
+                <Node name="Categories" expanded="True" />
+                <Node name="Products" expanded="True" />
+                <Node name="SliderInfos" expanded="True" />
+                <Node name="Sliders" expanded="True" />
+              </Node>
+              <Node name="Helpers" expanded="True">
+                <Node name="EntityConfigurations" expanded="True" />
+                <Node name="Extensions" expanded="True" />
+              </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="Interfaces" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="img" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FiorellaApi PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
